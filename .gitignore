@@ -1,3 +1,7 @@
+# Configs
+.vscode/
+settings.json
+
 # Virtual Environment
 venv/
 
