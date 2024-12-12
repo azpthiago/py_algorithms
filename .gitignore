@@ -1,3 +1,6 @@
+# Virtual Environment
+venv/
+
 # Byte-compiled / Optimized / DLL File
 __pycache__/
 *.py[cod]
