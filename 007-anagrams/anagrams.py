@@ -11,6 +11,22 @@
 
 import re
 
+# Este código pode ser solucionado de diversas outras maneiras
+# A remoção de pontuação pode ser feita utilizando um filter + str.isalnum
+# Ex: clear_string_1 = ''.join(filter(str.isalnum, string_1.lower()))
+# E a contagem dos caracteres pode ser feita utilizando um Counter
+# Ex: Counter(clear_string_1) == Counter(clear_string_2)
+
+# Solução com Counter
+
+# from collections import Counter
+#def anagrams(string_1, string_2):
+#    Remove espaços, pontuações e transforma em minúsculas
+#    clear_string_1 = ''.join(filter(str.isalnum, string_1.lower()))
+#    clear_string_2 = ''.join(filter(str.isalnum, string_2.lower()))   
+#    Conta os caracteres de cada string e compara
+#    return Counter(clear_string_1) == Counter(clear_string_2)
+
 def anagrams(string_1, string_2):
   if string_1 == "" or string_1 == "":
     return True
