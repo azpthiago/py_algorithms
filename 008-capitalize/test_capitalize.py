@@ -13,4 +13,4 @@ class Test_capitalize():
     assert capitalize('look, its is working') == 'Look, Its Is Working'
 
   def test_empty_string(Self):
-    assert capitalize('a short sentence') == 'A Short Sentence' 
+    assert capitalize('') == '' 
