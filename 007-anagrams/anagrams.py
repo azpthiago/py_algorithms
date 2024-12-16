@@ -28,9 +28,6 @@ import re
 #    return Counter(clear_string_1) == Counter(clear_string_2)
 
 def anagrams(string_1, string_2):
-  if string_1 == "" or string_1 == "":
-    return True
-  
   # Utiliza regex para tirar pontuação, .lower() para deixar minuscula e remove espaços da string
   clear_string_1 = re.sub(r'[^\w\s]','',string_1.lower()).replace(' ', '')
   clear_string_2 = re.sub(r'[^\w\s]','',string_2.lower()).replace(' ', '')
